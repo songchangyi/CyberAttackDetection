@@ -327,12 +327,12 @@
 325,192.108.116.88,18/Dec/2017,16,16,04,GET,datalab,"<XSS STYLE=xss:expression(alert('XSS'))"">",200,34463,2,1
 326,192.108.116.88,18/Dec/2017,16,18,04,POST,datalab,"<XSS STYLE=xss:expression(alert('XSS'))"">",-,-,-,1
 327,192.108.116.88,18/Dec/2017,16,20,04,POST,datalab,"<XSS STYLE=xss:expression(alert('XSS'))"">",-,-,-,1
-328,192.108.116.88,18/Dec/2017,16,20,48,GET,datalab,?script?alert(?XSS?)?/script?,200,1040,,1
-329,192.108.116.88,18/Dec/2017,16,20,49,GET,datalab,?script?alert(?XSS?)?/script?,200,945,,1
-330,192.108.116.88,18/Dec/2017,16,20,49,GET,datalab,?script?alert(?XSS?)?/script?,200,34463,,1
-331,192.108.116.88,18/Dec/2017,16,20,51,POST,datalab,?script?alert(?XSS?)?/script?,200,1073,,1
-332,192.108.116.88,18/Dec/2017,16,20,52,GET,datalab,?script?alert(?XSS?)?/script?,304,-,,1
-333,192.108.116.88,18/Dec/2017,16,20,52,GET,datalab,?script?alert(?XSS?)?/script?,304,-,,1
+328,192.108.116.88,18/Dec/2017,16,20,48,GET,datalab,¼script¾alert(¢XSS¢)¼/script¾,200,1040,,1
+329,192.108.116.88,18/Dec/2017,16,20,49,GET,datalab,¼script¾alert(¢XSS¢)¼/script¾,200,945,,1
+330,192.108.116.88,18/Dec/2017,16,20,49,GET,datalab,¼script¾alert(¢XSS¢)¼/script¾,200,34463,,1
+331,192.108.116.88,18/Dec/2017,16,20,51,POST,datalab,¼script¾alert(¢XSS¢)¼/script¾,200,1073,,1
+332,192.108.116.88,18/Dec/2017,16,20,52,GET,datalab,¼script¾alert(¢XSS¢)¼/script¾,304,-,,1
+333,192.108.116.88,18/Dec/2017,16,20,52,GET,datalab,¼script¾alert(¢XSS¢)¼/script¾,304,-,,1
 334,192.108.116.88,18/Dec/2017,16,30,11,GET,datalab,"<IFRAME SRC=javascript:alert('XSS');""></IFRAME>",200,1040,51,1
 335,192.108.116.88,18/Dec/2017,16,30,11,GET,datalab,"<IFRAME SRC=javascript:alert('XSS');""></IFRAME>",200,945,87,1
 336,192.108.116.88,18/Dec/2017,16,30,11,GET,datalab,"<IFRAME SRC=javascript:alert('XSS');""></IFRAME>",200,34463,8,1
