@@ -29,13 +29,13 @@ Toutes ces requêtes HTTP Post ont été générées en utilisant le langage pyt
 
 ### Faire parler les logs pour prédire si le serveur est attaqué
 
-Les données que nous avons générées sont organisées en 452 attaques XSS, 128059 attaques par force brute, 235 attaques par l'injection SQL et 12000 lignes de logs normaux.
+Les données que nous avons générées se composent de 128 059 logs de l’attaque par force brute, 452 de l’attaque XSS, 235 de l’attaque par injection SQL et 12 000 lignes de logs normaux.
 
-Dans le cadre de ce projet, 5 algorithmes d'apprentissage supervisé ont été utilisé : Arbre de Décision, Logistic Regression, Random Forest, Adaboost, XGboost. Suite à une comparaison entre ces algorithmes, l'algorithme Random Forest a produit une meilleur performance. Donc nous avons le choisi et obtenu une précision de 99.97% sur la classification en deux classes.
+Dans le cadre de ce projet, 5 algorithmes d'apprentissage supervisé ont été utilisés : Arbre de Décision, Logistic Regression, Random Forest, Adaboost et XGboost. Suite à une comparaison entre ces algorithmes, l'algorithme Random Forest est celui qui produit les meilleures performances. C’est pourquoi nous l’avons choisi et avons obtenu une précision de 99.97% sur la classification en deux classes (attaque / non-attaque).
 
-Afin de s'adapter aux données de client, nous avons fait une mise à jour des caractéristiques et puis repris le modèle de Random Forest. Enfin, nous avons eu une précision de 99.997%.
+Afin de s'adapter aux données de notre client, nous avons fait une mise à jour des caractéristiques et entraîné le modèle Random Forest. Enfin, nous avons obtenu une précision de 99.997%, après optimisation des paramètres.
 
-Pour aller plus loins, nous avons aussi essayé de faire une multi-classification pour bien préciser le type d’une attaque lorsqu’on l’a détecté. Basé sur les données simulées, nous avons obtenu un taux de précision de 99.98% sur la classification en quatre classes (3 attaques et sans attaque).
+Pour aller plus loin, nous avons essayé de faire une multi-classification pour prédire le type d’attaque lorsqu’on détecte qu’il y a une attaque. Basé sur les données simulées, nous avons obtenu un score de 99.98% sur quatre classes (3 types d’attaque et 1 classe sans attaque).
 
 Sources 
 
